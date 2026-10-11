@@ -1,2 +1,4 @@
 console.log("test");
-function init (){}
+function init (){
+    alert("check rama main");
+}
