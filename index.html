@@ -13,7 +13,21 @@
     </style>
 </head>
 <body>
-    <div class="max-w-md mx-auto grid grid-cols-4 grid-rows-5 gap-2 p-4">
+
+    
+    <nav class="navbar">
+        <ul class="nav-links flex">
+            <li><a href="#" class="text-decoration-none text-xl" id="home-link">Home</a></li>
+            <li><a href="#" class="text-decoration-none text-xl" id="calculator-link">Calculator</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <h1>Welcome to the Calculator</h1>
+            <p>This is a simple calculator application.</p>
+        </div>
+        <div>
+            <div class="max-w-md mx-auto grid grid-cols-4 grid-rows-5 gap-2 p-4">
         <div class="col-span-4 bg-gray-200 p-4 text-right" id="display">0</div>
         <div class="bg-gray-300 hover:bg-gray-400 p-4" id="btn-clear">C</div>
         <div class="bg-gray-300 hover:bg-gray-400 p-4" id="btn-plus-minus">±</div>
@@ -35,5 +49,7 @@
         <div class = "col-span-2 bg-gray-300 hover:bg-gray-500 hover:text-white p-4" id="btn-equals"> = </div>
     </div>
     <script src="main.js" defer></script>
+        </div>
+    </main>
 </body>
 </html>
