@@ -4,6 +4,7 @@ var btn_equals = document.getElementById("btn-equals");
 var btn_numbers = document.querySelectorAll(".btn-number");
 var btn_operators = document.querySelectorAll(".btn-operator");
 var operator = "";
+var showCalculator = false;
 
 btn_clear.addEventListener("click", function() {
     display.textContent = "0";
